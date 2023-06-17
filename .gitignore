@@ -23,7 +23,7 @@ lib-cov
 coverage
 *.lcov
 
-# nyc test coverage
+# nyc deepai coverage
 .nyc_output
 
 # Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
@@ -75,7 +75,7 @@ web_modules/
 # dotenv environment variable files
 .env
 .env.development.local
-.env.test.local
+.env.deepai.local
 .env.production.local
 .env.local
 
@@ -120,7 +120,7 @@ dist
 .tern-port
 
 # Stores VSCode versions used for testing VSCode extensions
-.vscode-test
+.vscode-deepai
 
 # yarn v2
 .yarn/cache
@@ -128,3 +128,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+.idea
