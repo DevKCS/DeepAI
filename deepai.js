@@ -196,7 +196,6 @@ class DeepAI {
     }
 }
 
-
 let deepai = new DeepAI()
 //console.log(await deepai.nsfw('https://static.molya.kr/static/0ef42a42eda444d393a6b731e5106c0e.webp'))
 //console.log(await deepai.colorizer('https://static.molya.kr/static/0ef42a42eda444d393a6b731e5106c0e.webp'))
