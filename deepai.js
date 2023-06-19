@@ -159,7 +159,7 @@ class DeepAI {
         });
         return response.data.output.nsfw_score;
     }
-    
+
     /**
      * @param {String} prompt 생성할 이미지의 프롬프트
      * @param {Number} width 512 ~ 768 (64x)
@@ -195,6 +195,7 @@ class DeepAI {
         return response.data.output_url;
     }
 }
+
 
 let deepai = new DeepAI()
 //console.log(await deepai.nsfw('https://static.molya.kr/static/0ef42a42eda444d393a6b731e5106c0e.webp'))
