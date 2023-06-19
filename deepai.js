@@ -162,8 +162,8 @@ class DeepAI {
 
     /**
      * @param {String} prompt 생성할 이미지의 프롬프트
-     * @param {Number} width 512 ~ 1024 (64x)
-     * @param {Number} height 512 ~ 1024 (64x)
+     * @param {Number} width 512 ~ 768 (64x)
+     * @param {Number} height 512 ~ 768 (64x)
      * @returns {String} 생성된 이미지의 링크
      * @description 입력된 프롬프트와 이미지 크기를 바탕으로 이미지를 생성한다. (StableDiffusion)
      */
@@ -201,5 +201,5 @@ let deepai = new DeepAI()
 //console.log(await deepai.colorizer('https://static.molya.kr/static/0ef42a42eda444d393a6b731e5106c0e.webp'))
 //console.log(await deepai.waifu2x('https://static.molya.kr/static/0ef42a42eda444d393a6b731e5106c0e.webp'))
 //console.log(await deepai.upscale('https://static.molya.kr/static/0ef42a42eda444d393a6b731e5106c0e.webp'))
-//console.log(await deepai.art('a white cat',1024,1024))
+//console.log(await deepai.art('a white cat',768,768))
 
