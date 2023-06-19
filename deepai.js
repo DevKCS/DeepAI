@@ -159,7 +159,7 @@ class DeepAI {
         });
         return response.data.output.nsfw_score;
     }
-
+    
     /**
      * @param {String} prompt 생성할 이미지의 프롬프트
      * @param {Number} width 512 ~ 768 (64x)
